@@ -190,6 +190,17 @@ body {
     border-bottom: 2px solid silver;
     display: block;
   }
+  #slide-1 > p {
+      font-size: 14px;
+      padding: 8px 20px;
+  }
+  #slide-1 > p > span {
+      color: red;
+  }
+  #slide-2 > p {
+    font-size: 14px;
+    padding: 10px 20px;
+}
   a.button-2 {
     text-decoration: none;
     background-color: black;
@@ -200,11 +211,25 @@ body {
     text-align: center;
     margin: 10px auto 0px 20px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 5px 15px;
 }
 
 a.button-2:hover {
     background-color: white;
     color: black;
     
+}
+.src-buttons > a{
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid silver;
+    color: silver;
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+div.src-buttons {
+   margin-top: 4px;
 }
