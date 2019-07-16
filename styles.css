@@ -16,7 +16,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: white;
+    background-color: #f7f9fc;
     border-bottom-right-radius: 30%;
 }
 .heading > h1 {
@@ -27,6 +27,16 @@ body {
     padding-left: 20px;
     margin-bottom: 0px;
    
+}
+.heading > img {
+    grid-column-start: 3;
+    margin: 15px 8px 15px 55%;
+    height: 30px;
+    width: 15px;
+    padding: 8px;
+    border: 1px solid red;
+    border-radius: 10px;
+    
 }
 .heading > h1 > span {
     color: red;
@@ -71,3 +81,41 @@ body {
 .main > .content-container > div > .middle-h1 {
     text-align: center;
 }
+.main > .content-container > .last-div {
+    text-align: center;
+    
+}
+.main > .content-container > div > a {
+    text-decoration: none;
+    color: silver;
+    font-size: 35px;
+    display: block;
+   text-align: center;
+   padding-top: 8px;
+}
+.main > .content-container > div > a > i > span {
+    color: silver;
+    display: none;
+    font-size: 20px;
+    padding-left: 8px;
+}
+.main > .content-container > div > a > i:hover > span {
+    display: inline-block;
+
+}
+.main > .content-container > .last-div > h1{
+    text-align: right;
+}
+.main > .content-container > .last-div > button {
+    background-color: black;
+    border: 1px solid silver;
+    color: silver;
+    font-size: 18px;
+}
+.main > .content-container > .last-div > button:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+/* portfolio page */
