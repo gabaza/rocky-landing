@@ -92,7 +92,7 @@ body {
     background: linear-gradient(to right, rgba(247, 15, 15, 0.712) 75%, black 25%);
 }
 .main > .content-container > div > ol > li.li-5 {
-    background: linear-gradient(to right, rgba(247, 15, 15, 0.712) 50%, black 50%);
+    background: linear-gradient(to right, rgba(247, 15, 15, 0.712) 52%, black 48%);
 }
 .main > .content-container > div > ol > li.li-6 {
     background: linear-gradient(to right, rgba(247, 15, 15, 0.712) 50%, black 50%);
@@ -251,4 +251,25 @@ a.button-2:hover {
 }
 div.src-buttons {
    margin-top: 4px;
+}
+@media screen and (max-width: 850px) {
+    .main > .content-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .main > .heading > img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+   .main {
+       position: absolute;
+       bottom: 1px;
+       margin: 0px;
+       width: auto;
+       height: 92%;
+   }
+  
 }
