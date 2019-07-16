@@ -77,6 +77,25 @@ body {
     border: 0.5px solid silver;
     margin: 6px auto;
     padding: 4px;
+    
+}
+.main > .content-container > div > ol > li.li-1 {
+    background: linear-gradient(to right, rgba(247, 15, 15, 0.712) 80%, black 20%);
+}
+.main > .content-container > div > ol > li.li-2 {
+    background: linear-gradient(to right, rgba(247, 15, 15, 0.712) 55%, black 45%);
+}
+.main > .content-container > div > ol > li.li-3 {
+    background: linear-gradient(to right, rgba(247, 15, 15, 0.712) 55%, black 45%);
+}
+.main > .content-container > div > ol > li.li-4 {
+    background: linear-gradient(to right, rgba(247, 15, 15, 0.712) 75%, black 25%);
+}
+.main > .content-container > div > ol > li.li-5 {
+    background: linear-gradient(to right, rgba(247, 15, 15, 0.712) 50%, black 50%);
+}
+.main > .content-container > div > ol > li.li-6 {
+    background: linear-gradient(to right, rgba(247, 15, 15, 0.712) 50%, black 50%);
 }
 .main > .content-container > div > .middle-h1 {
     text-align: center;
