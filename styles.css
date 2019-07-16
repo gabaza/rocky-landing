@@ -48,4 +48,12 @@ body {
 .main > .content-container {
     background: black;
     color: silver;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.main > .content-container > div {
+    border: 2px solid silver;
+    border-radius: 10px;
+    margin: 16px 4px;
+    padding: 4px;
 }
