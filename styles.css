@@ -17,6 +17,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: white;
+    border-bottom-right-radius: 30%;
 }
 .heading > h1 {
     grid-column-start: 1;
@@ -25,11 +26,13 @@ body {
     font-weight: bold;
     padding-left: 20px;
     margin-bottom: 0px;
+   
 }
 .heading > h1 > span {
     color: red;
     font-size: 40px;
     font-weight: bold;
+   
 }
 .heading > p {
     grid-row-start: 2;
