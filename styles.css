@@ -2,42 +2,49 @@ body {
     background: url(rocky-landing.jpeg);
     background-size: cover;
     font-family: 'Raleway', sans-serif;
-  }
-  .main {
-      margin: 12% auto 0 auto;
-      height: 600px;
-      width: 60%;
-      background-color: white;
-      box-shadow: -23px 17px 15px 7px rgba(0,0,0,0.75);    
-    }
-    .heading {
-        margin-top: 0px;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-    .heading > h1 {
-        grid-column-start: 1;
-        color: black;
-        font-size: 80px;
-        font-weight: bold;
-        padding-left: 20px;
-        margin-bottom: 0px;
-    }
-    .heading > h1 > span {
-        color: red;
-    }
-    .heading > p {
-        grid-row-start: 2;
-        padding-left: 20px;
-        margin-top: 0px;
-    }
-    .heading > p > span {
-        font-weight: bold;
-        color: red;
-    }
-    .heading > p > a {
-        text-decoration: none;
-        color: red;
-    }
+}
+.main {
+    margin: 12% auto 0 auto;
+    height: 650px;
+    width: 60%;
+    background-color: black;
+    box-shadow: -23px 17px 15px 7px rgba(0,0,0,0.75);  
+}
+.heading {
+    margin-top: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+}
+.heading > h1 {
+    grid-column-start: 1;
+    color: black;
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.heading > h1 > span {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+.heading > p {
+    grid-row-start: 2;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+.heading > p > span {
+    font-weight: bold;
+    color: red;
+}
+.heading > p > a {
+    text-decoration: none;
+    color: red;
+}
+.main > .content-container {
+    background: black;
+    color: silver;
+}
