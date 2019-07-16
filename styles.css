@@ -171,6 +171,12 @@ body {
     font-size: 20px;
     color: silver;
   }
+  .slides > div > img {
+      height: 60%;
+      width: 80%;
+      border: 1px solid silver;
+      border-radius: 10px;
+  }
   .slider > a {
     display: hidden;
 }
