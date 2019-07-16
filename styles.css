@@ -1,0 +1,11 @@
+body {
+    background: url(rocky-landing.jpeg);
+    background-size: cover;
+  }
+  .main {
+      margin: 12% auto 0 auto;
+      height: 600px;
+      width: 60%;
+      background-color: white;
+      box-shadow: -23px 17px 15px 7px rgba(0,0,0,0.75);    
+    }
