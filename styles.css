@@ -268,8 +268,11 @@ div.src-buttons {
        position: absolute;
        bottom: 1px;
        margin: 15px;
-       width: auto;
+       width: 95%;
        height: 92%;
+   }
+   .main > .heading > .email-heading {
+       display: none;
    }
   
 }
