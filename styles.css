@@ -178,7 +178,7 @@ body {
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 100%;
-    height: 475px;
+    height: 500px;
     margin-top: 80px;
     margin-right: 50px;
     /* border-radius: 10px; */
@@ -285,5 +285,11 @@ div.src-buttons {
    .main > .heading > .email-heading {
        display: none;
    }
+   .slider {
+    margin: 0px auto 0px auto;
+    width: 100%;
+    height: 95%;
+    
+  }
   
 }
