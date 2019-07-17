@@ -267,7 +267,7 @@ div.src-buttons {
    .main {
        position: absolute;
        bottom: 1px;
-       margin: 0px;
+       margin: 15px;
        width: auto;
        height: 92%;
    }
