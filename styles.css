@@ -5,10 +5,11 @@ body {
 }
 .main {
     margin: 12% auto 0 auto;
-    height: 650px;
+    height: 100%;
     width: 60%;
     background-color: black;
     box-shadow: -23px 17px 15px 7px rgba(0,0,0,0.75);  
+    overflow: auto;
 }
 .heading {
     margin-top: 0px;
@@ -49,6 +50,7 @@ body {
     padding-left: 20px;
     margin-top: 0px;
     font-size: 14px;
+    
 }
 .heading > p > span {
     font-weight: bold;
@@ -253,6 +255,10 @@ div.src-buttons {
    margin-top: 4px;
 }
 @media screen and (max-width: 850px) {
+    .main {
+        margin: 0px;
+       
+    }
     .main > .content-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
