@@ -147,6 +147,14 @@ body {
 }
 
 /* portfolio page */
+.main-2 {
+    margin: 12% auto 0 auto;
+    height: 100%;
+    width: 60%;
+    background-color: black;
+    box-shadow: -23px 17px 15px 7px rgba(0,0,0,0.75);  
+    overflow: auto;
+}
 .slider {
     margin: 30px auto 25px auto;
     background-color: black;
