@@ -265,6 +265,10 @@ a.button-2:hover {
 div.src-buttons {
    margin-top: 4px;
 }
+.slides > div > p > a {
+    text-decoration: none;
+    color: silver;
+}
 @media screen and (max-width: 850px) {
     .main {
         margin: 0px;
