@@ -207,10 +207,12 @@ body {
       width: 80%;
       border: 1px solid silver;
       border-radius: 10px;
+      margin-top: 38px;
   }
   .slider > a {
     display: hidden;
 }
+
   #slide-1 {
     width: 95%;
     border-bottom: 2px solid silver;
@@ -319,5 +321,11 @@ div.src-buttons {
       height: 90%;
       
   }
+  .slides {
+    margin-top: 15%;
+}
   
+.slides > div > img {
+    height: 35%;
+}
 }
