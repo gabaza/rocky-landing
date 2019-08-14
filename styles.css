@@ -317,6 +317,10 @@ div.src-buttons {
       height: 100%;
       width: 100%;
   }
+  .slides > div {
+      height: 470px;
+      margin-top: 10px;
+  }
   .slider {
       height: 90%;
       
